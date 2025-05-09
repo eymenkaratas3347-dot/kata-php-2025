@@ -7,8 +7,9 @@ use PHPUnit\Framework\Attributes\Test;
 class HelloWorldTest extends TestCase
 {
     #[Test]
-    public function true_is_true()
+    public function sayHello_returns_greeting()
     {
-        $this->assertTrue(true);
+        $helloWorld = new HelloWorld();
+        $this->assertEquals('Hello, World!', $helloWorld->sayHello());
     }
 }
