@@ -1,0 +1,21 @@
+{
+    "name": "giorgiosironi/kata-php-2025",
+    "description": "A playground to work on code katas in PHP 8 and related tooling",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^12.1",
+        "phpstan/phpstan": "^2.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Giorgiosironi\\KataPhp2025\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giorgio Sironi",
+            "email": "work@giorgiosironi.com"
+        }
+    ]
+}
