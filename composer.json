@@ -12,6 +12,11 @@
             "Giorgiosironi\\KataPhp2025\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Giorgiosironi\\KataPhp2025\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Giorgio Sironi",
